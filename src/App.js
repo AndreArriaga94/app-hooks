@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div>
       <input ref={inputRef}></input>
-      <button onClick={focus}>Focus</button>
+      <button onClick={focus} ref={ref}>Focus</button>
     </div>
   )
 }
